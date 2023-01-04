@@ -6,3 +6,5 @@
 2023-01-04 11:20:39.928 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
 2023-01-04 11:20:39.928 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
 2023-01-04 11:20:39.929 [info] Eager extensions activated
+2023-01-04 13:52:40.660 [info] Extension host terminating: renderer disconnected for too long (2)
+2023-01-04 13:52:40.670 [info] Extension host with pid 4086 exiting with code 0
