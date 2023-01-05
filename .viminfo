@@ -12,7 +12,7 @@
 ~H
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1672841521,,"wq!"
+|2,0,1672907810,,"wq!"
 :wq
 |2,0,1672841501,,"wq"
 :q
@@ -29,20 +29,40 @@
 # Registers:
 
 # File marks:
-'0  3  36  ~/deploy.py
-|4,48,3,36,1672841521,"~/deploy.py"
+'0  3  37  ~/final/trial.py
+|4,48,3,37,1672907810,"~/final/trial.py"
+'1  1  0  ~/deploy.py
+|4,49,1,0,1672846106,"~/deploy.py"
+'2  3  36  ~/deploy.py
+|4,50,3,36,1672841521,"~/deploy.py"
 
 # Jumplist (newest first):
+-'  3  37  ~/final/trial.py
+|4,39,3,37,1672907810,"~/final/trial.py"
+-'  1  0  ~/final/trial.py
+|4,39,1,0,1672907723,"~/final/trial.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672846106,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672846106,"~/deploy.py"
 -'  3  36  ~/deploy.py
 |4,39,3,36,1672841521,"~/deploy.py"
+-'  3  36  ~/deploy.py
+|4,39,3,36,1672841521,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672841340,"~/deploy.py"
 -'  1  0  ~/deploy.py
 |4,39,1,0,1672841340,"~/deploy.py"
 
 # History of marks within files (newest to oldest):
 
+> ~/final/trial.py
+	*	1672907803	0
+	"	3	37
+	^	3	38
+	.	3	37
+	+	3	37
+
 > ~/deploy.py
-	*	1672841501	0
-	"	3	36
-	^	3	37
-	.	3	36
-	+	3	36
+	*	1672836900	0
+	"	1	0
