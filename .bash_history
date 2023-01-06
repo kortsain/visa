@@ -54,3 +54,54 @@ git status
 git remote -v
 shutdown
 sudo shutdown
+ls
+mkdir final
+cd final
+vi trial.py
+ls
+pwd
+ls
+ls l
+ls -a
+pwd
+cd ..
+ls
+git log
+git add .
+git status
+git log
+git add final
+git log
+git status
+git commit -m "3rd git project"
+git status
+git remote add col collins Uzoka
+ls
+final
+cd final
+git remote add vs
+git remore add vs https://github.com/kortsain/visa.git
+git remote add vs https://github.com/kortsain/visa.git
+git remote -v
+git branch -m master
+git push vs master
+ls
+cd final
+git log
+ls
+cd final
+git push vs main
+git push -u vs main
+git branch -m main
+git push vs main
+ls
+git push vs main
+sudo adduser
+sudo useradd col
+sudo passwd understand
+sudo passwd col
+su -
+su - col
+sudo echo "col  ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/col
+sudo su - col
+shutdown
