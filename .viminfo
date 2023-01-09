@@ -12,7 +12,7 @@
 ~H
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1672998924,,"wq!"
+|2,0,1673255012,,"wq!"
 :wq
 |2,0,1672841501,,"wq"
 :q
@@ -29,24 +29,40 @@
 # Registers:
 
 # File marks:
-'0  4  2  ~/list
-|4,48,4,2,1672998924,"~/list"
-'1  3  37  ~/final/trial.py
-|4,49,3,37,1672907810,"~/final/trial.py"
-'2  1  0  ~/deploy.py
-|4,50,1,0,1672846106,"~/deploy.py"
-'3  3  36  ~/deploy.py
-|4,51,3,36,1672841521,"~/deploy.py"
+'0  1  11  ~/dev.sh
+|4,48,1,11,1673255012,"~/dev.sh"
+'1  4  2  ~/list
+|4,49,4,2,1672998924,"~/list"
+'2  3  37  ~/final/trial.py
+|4,50,3,37,1672907810,"~/final/trial.py"
+'3  1  0  ~/deploy.py
+|4,51,1,0,1672846106,"~/deploy.py"
+'4  3  36  ~/deploy.py
+|4,52,3,36,1672841521,"~/deploy.py"
 
 # Jumplist (newest first):
+-'  1  11  ~/dev.sh
+|4,39,1,11,1673255012,"~/dev.sh"
 -'  4  2  ~/list
 |4,39,4,2,1672998924,"~/list"
+-'  4  2  ~/list
+|4,39,4,2,1672998924,"~/list"
+-'  1  0  ~/list
+|4,39,1,0,1672998774,"~/list"
 -'  1  0  ~/list
 |4,39,1,0,1672998774,"~/list"
 -'  3  37  ~/final/trial.py
 |4,39,3,37,1672907810,"~/final/trial.py"
 -'  3  37  ~/final/trial.py
 |4,39,3,37,1672907810,"~/final/trial.py"
+-'  3  37  ~/final/trial.py
+|4,39,3,37,1672907810,"~/final/trial.py"
+-'  3  37  ~/final/trial.py
+|4,39,3,37,1672907810,"~/final/trial.py"
+-'  1  0  ~/final/trial.py
+|4,39,1,0,1672907723,"~/final/trial.py"
+-'  1  0  ~/final/trial.py
+|4,39,1,0,1672907723,"~/final/trial.py"
 -'  1  0  ~/final/trial.py
 |4,39,1,0,1672907723,"~/final/trial.py"
 -'  1  0  ~/final/trial.py
@@ -59,6 +75,14 @@
 |4,39,1,0,1672846106,"~/deploy.py"
 -'  1  0  ~/deploy.py
 |4,39,1,0,1672846106,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672846106,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672846106,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672846106,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672846106,"~/deploy.py"
 -'  3  36  ~/deploy.py
 |4,39,3,36,1672841521,"~/deploy.py"
 -'  3  36  ~/deploy.py
@@ -67,6 +91,22 @@
 |4,39,3,36,1672841521,"~/deploy.py"
 -'  3  36  ~/deploy.py
 |4,39,3,36,1672841521,"~/deploy.py"
+-'  3  36  ~/deploy.py
+|4,39,3,36,1672841521,"~/deploy.py"
+-'  3  36  ~/deploy.py
+|4,39,3,36,1672841521,"~/deploy.py"
+-'  3  36  ~/deploy.py
+|4,39,3,36,1672841521,"~/deploy.py"
+-'  3  36  ~/deploy.py
+|4,39,3,36,1672841521,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672841340,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672841340,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672841340,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672841340,"~/deploy.py"
 -'  1  0  ~/deploy.py
 |4,39,1,0,1672841340,"~/deploy.py"
 -'  1  0  ~/deploy.py
@@ -77,6 +117,10 @@
 |4,39,1,0,1672841340,"~/deploy.py"
 
 # History of marks within files (newest to oldest):
+
+> ~/dev.sh
+	*	1673255003	0
+	"	1	11
 
 > ~/list
 	*	1672998919	0
