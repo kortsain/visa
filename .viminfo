@@ -12,7 +12,9 @@
 ~H
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1673255012,,"wq!"
+|2,0,1673255883,,"wq!"
+:q!
+|2,0,1673255868,,"q!"
 :wq
 |2,0,1672841501,,"wq"
 :q
@@ -30,23 +32,35 @@
 
 # File marks:
 '0  1  11  ~/dev.sh
-|4,48,1,11,1673255012,"~/dev.sh"
-'1  4  2  ~/list
-|4,49,4,2,1672998924,"~/list"
-'2  3  37  ~/final/trial.py
-|4,50,3,37,1672907810,"~/final/trial.py"
-'3  1  0  ~/deploy.py
-|4,51,1,0,1672846106,"~/deploy.py"
-'4  3  36  ~/deploy.py
-|4,52,3,36,1672841521,"~/deploy.py"
+|4,48,1,11,1673255883,"~/dev.sh"
+'1  1  11  ~/dev.sh
+|4,49,1,11,1673255012,"~/dev.sh"
+'2  4  2  ~/list
+|4,50,4,2,1672998924,"~/list"
+'3  3  37  ~/final/trial.py
+|4,51,3,37,1672907810,"~/final/trial.py"
+'4  1  0  ~/deploy.py
+|4,52,1,0,1672846106,"~/deploy.py"
+'5  3  36  ~/deploy.py
+|4,53,3,36,1672841521,"~/deploy.py"
 
 # Jumplist (newest first):
+-'  1  11  ~/dev.sh
+|4,39,1,11,1673255883,"~/dev.sh"
 -'  1  11  ~/dev.sh
 |4,39,1,11,1673255012,"~/dev.sh"
 -'  4  2  ~/list
 |4,39,4,2,1672998924,"~/list"
 -'  4  2  ~/list
 |4,39,4,2,1672998924,"~/list"
+-'  4  2  ~/list
+|4,39,4,2,1672998924,"~/list"
+-'  4  2  ~/list
+|4,39,4,2,1672998924,"~/list"
+-'  1  0  ~/list
+|4,39,1,0,1672998774,"~/list"
+-'  1  0  ~/list
+|4,39,1,0,1672998774,"~/list"
 -'  1  0  ~/list
 |4,39,1,0,1672998774,"~/list"
 -'  1  0  ~/list
@@ -59,6 +73,22 @@
 |4,39,3,37,1672907810,"~/final/trial.py"
 -'  3  37  ~/final/trial.py
 |4,39,3,37,1672907810,"~/final/trial.py"
+-'  3  37  ~/final/trial.py
+|4,39,3,37,1672907810,"~/final/trial.py"
+-'  3  37  ~/final/trial.py
+|4,39,3,37,1672907810,"~/final/trial.py"
+-'  3  37  ~/final/trial.py
+|4,39,3,37,1672907810,"~/final/trial.py"
+-'  3  37  ~/final/trial.py
+|4,39,3,37,1672907810,"~/final/trial.py"
+-'  1  0  ~/final/trial.py
+|4,39,1,0,1672907723,"~/final/trial.py"
+-'  1  0  ~/final/trial.py
+|4,39,1,0,1672907723,"~/final/trial.py"
+-'  1  0  ~/final/trial.py
+|4,39,1,0,1672907723,"~/final/trial.py"
+-'  1  0  ~/final/trial.py
+|4,39,1,0,1672907723,"~/final/trial.py"
 -'  1  0  ~/final/trial.py
 |4,39,1,0,1672907723,"~/final/trial.py"
 -'  1  0  ~/final/trial.py
@@ -83,6 +113,22 @@
 |4,39,1,0,1672846106,"~/deploy.py"
 -'  1  0  ~/deploy.py
 |4,39,1,0,1672846106,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672846106,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672846106,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672846106,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672846106,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672846106,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672846106,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672846106,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672846106,"~/deploy.py"
 -'  3  36  ~/deploy.py
 |4,39,3,36,1672841521,"~/deploy.py"
 -'  3  36  ~/deploy.py
@@ -99,6 +145,38 @@
 |4,39,3,36,1672841521,"~/deploy.py"
 -'  3  36  ~/deploy.py
 |4,39,3,36,1672841521,"~/deploy.py"
+-'  3  36  ~/deploy.py
+|4,39,3,36,1672841521,"~/deploy.py"
+-'  3  36  ~/deploy.py
+|4,39,3,36,1672841521,"~/deploy.py"
+-'  3  36  ~/deploy.py
+|4,39,3,36,1672841521,"~/deploy.py"
+-'  3  36  ~/deploy.py
+|4,39,3,36,1672841521,"~/deploy.py"
+-'  3  36  ~/deploy.py
+|4,39,3,36,1672841521,"~/deploy.py"
+-'  3  36  ~/deploy.py
+|4,39,3,36,1672841521,"~/deploy.py"
+-'  3  36  ~/deploy.py
+|4,39,3,36,1672841521,"~/deploy.py"
+-'  3  36  ~/deploy.py
+|4,39,3,36,1672841521,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672841340,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672841340,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672841340,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672841340,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672841340,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672841340,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672841340,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1672841340,"~/deploy.py"
 -'  1  0  ~/deploy.py
 |4,39,1,0,1672841340,"~/deploy.py"
 -'  1  0  ~/deploy.py
@@ -119,7 +197,7 @@
 # History of marks within files (newest to oldest):
 
 > ~/dev.sh
-	*	1673255003	0
+	*	1673255868	0
 	"	1	11
 
 > ~/list
