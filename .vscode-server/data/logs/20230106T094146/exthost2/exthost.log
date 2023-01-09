@@ -6,3 +6,5 @@
 2023-01-06 09:42:08.870 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
 2023-01-06 09:42:08.870 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
 2023-01-06 09:42:08.870 [info] Eager extensions activated
+2023-01-06 09:58:56.674 [info] Extension host terminating: received terminate message from renderer
+2023-01-06 09:58:56.685 [info] Extension host with pid 18688 exiting with code 0

@@ -105,3 +105,68 @@ su - col
 sudo echo "col  ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/col
 sudo su - col
 shutdown
+ls
+git verify vs
+git verify -v
+clear
+ls
+vi list
+ls
+mv list list.java
+ls
+git status
+git add .
+git status
+git commit -m "users list"
+git status
+git log
+git remote add users https://github.com/kortsain/visa.git
+git status
+git push users
+ls
+git pull users master
+git pull users visa
+git pull vs master
+git pull vs visa
+git pull 
+git remote users
+git remote list
+clear
+git status
+git log
+git pull user list
+git pull list
+git remote -v
+git pull vs master
+git pull vs main
+git show vs
+git show -v
+ls
+vi list.java
+git show -v
+git remote -v
+git remote -m head
+git pull vs Prod
+git branch
+
+git fetch origin
+git branch -u origin/Prod Prod
+git remote set-head origin -a
+git branch
+git fetch vs Prod
+ls
+git dif vs/Prod
+git diff vs/Prod
+git -v
+git verify -v
+git diff users/Prod
+git diff vs/Prod
+ls
+git fetch vs Prod
+ls
+git fetch users Prod
+ls
+git diff users/Prod
+git diff vs/Prod
+git pull vs Prod
+ls

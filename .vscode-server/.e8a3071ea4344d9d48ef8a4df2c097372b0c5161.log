@@ -5,13 +5,13 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to 127.0.0.1:43273 (IPv4)
-Extension host agent listening on 43273
+Server bound to 127.0.0.1:35337 (IPv4)
+Extension host agent listening on 35337
 
-[09:41:46] Extension host agent started.
-[09:41:48] [127.0.0.1][03869e9e][ExtensionHostConnection] New connection established.
-[09:41:48] [127.0.0.1][c84d63e3][ManagementConnection] New connection established.
-[09:41:48] [127.0.0.1][03869e9e][ExtensionHostConnection] <18584> Launched Extension Host Process.
+[08:34:51] Extension host agent started.
+[08:34:53] [127.0.0.1][795d5217][ManagementConnection] New connection established.
+[08:34:53] [127.0.0.1][fb331f16][ExtensionHostConnection] New connection established.
+[08:34:53] [127.0.0.1][fb331f16][ExtensionHostConnection] <14860> Launched Extension Host Process.
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
   '-c',
   'wget --version > /dev/null\n' +
@@ -72,38 +72,9 @@ Extension host agent listening on 43273
     'fi\n' +
     'exit 0'
 ]
-rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
-stack trace: CodeExpectedError: Could not find pty on pty host
-    at h.J (/home/ec2-user/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
-    at h.updateTitle (/home/ec2-user/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
-    at Object.call (/home/ec2-user/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
-    at r.q (/home/ec2-user/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
-    at r.p (/home/ec2-user/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
-    at /home/ec2-user/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
-    at n.invoke (/home/ec2-user/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
-    at C.deliver (/home/ec2-user/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
-    at v.fire (/home/ec2-user/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
-    at process.O (/home/ec2-user/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
-    at process.emit (node:events:526:28)
-    at emit (node:internal/child_process:938:14)
-    at processTicksAndRejections (node:internal/process/task_queues:84:21)
-[09:42:04] Error [CodeExpectedError]: Could not find pty on pty host
-    at h.J (/home/ec2-user/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
-    at h.updateTitle (/home/ec2-user/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
-    at Object.call (/home/ec2-user/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
-    at r.q (/home/ec2-user/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
-    at r.p (/home/ec2-user/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
-    at /home/ec2-user/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
-    at n.invoke (/home/ec2-user/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
-    at C.deliver (/home/ec2-user/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
-    at v.fire (/home/ec2-user/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
-    at process.O (/home/ec2-user/.vscode-server/bin/e8a3071ea4344d9d48ef8a4df2c097372b0c5161/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
-    at process.emit (node:events:526:28)
-    at emit (node:internal/child_process:938:14)
-    at processTicksAndRejections (node:internal/process/task_queues:84:21)
-[09:42:05] [127.0.0.1][6821f758][ManagementConnection] New connection established.
-[09:42:06] [127.0.0.1][95ebbee9][ExtensionHostConnection] New connection established.
-[09:42:06] [127.0.0.1][95ebbee9][ExtensionHostConnection] <18688> Launched Extension Host Process.
+[08:37:13] [127.0.0.1][0e83b0cf][ManagementConnection] New connection established.
+[08:37:13] [127.0.0.1][1284bf3f][ExtensionHostConnection] New connection established.
+[08:37:13] [127.0.0.1][1284bf3f][ExtensionHostConnection] <14967> Launched Extension Host Process.
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
   '-c',
   'wget --version > /dev/null\n' +
@@ -164,3 +135,5 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     'fi\n' +
     'exit 0'
 ]
+[08:37:17] [127.0.0.1][795d5217][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:37:17] [127.0.0.1][fb331f16][ExtensionHostConnection] <14860> Extension Host Process exited with code: 0, signal: null.
